@@ -108,7 +108,8 @@ By default, only the _admin_ user has access to the Settings section. This goes 
 
 <a name="user_add"></a>
 #### Add User
-Adds new users to OpenGro/Op.
+Adds new users to OpenGro/Op.  
+Enter the username and password of the new user
 
 <a name="Edit User"></a>
 #### Edit User
@@ -116,7 +117,12 @@ Edits user's password, or deletes user from the system. If looking to change the
 
 <a name="cloud_account_settings"></a>
 ### Cloud Account Settings
-Server credentials to access a cloud account.
+Server credentials to access a cloud account.  
+Host:  
+Port:  
+Account ID:  
+Password:  
+
 
 <a name="backup_restore"></a>
 ### Backup / Restore Data
