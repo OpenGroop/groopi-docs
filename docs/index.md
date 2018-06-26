@@ -84,10 +84,14 @@ One use case for this might be that the sensor is being moved to another area or
 
 <a name="network_settings"></a>
 ### Network Settings
+The RPi can be accessed via 2 seperate networks.  
+* WIFI access point
+* Local network connections
 
 <a name="network_ap"></a>
 #### Wireless Access Point
 Displays credentials used to connect the Groopi's WIFI access point.
+Once connected to the RPi's access point, the Opengro/Op console will be available at the url provided.  
 
 <a name="network_local"></a>
 #### Local Network
