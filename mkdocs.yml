@@ -1,1 +1,6 @@
-site_name: My Docs
+site_name: OpenGro/Op Support Pages
+pages:
+  - Preface: index.md
+  - Groopi Quickstart Guide: groopi-quickstart.md
+  - Opengro/Op Reference Manual: opengroop_reference_manual.md
+theme: readthedocs
