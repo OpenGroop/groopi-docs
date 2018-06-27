@@ -32,7 +32,7 @@ That's it, so let's get going.
 
 The Groopi will take a few minutes to boot up. We can't move on until fully booted. I suggest waiting 5 minutes before moving on to the next steps.
 
-##Connecting to the Groopi's WIFI network
+## Connecting to the Groopi's WIFI network
 
 You will be connecting to the Groopi's WIFI network the same way you would connect to any other WIFI network. Your Groopi's network name and password are labeled on the Groopi.
 
@@ -92,7 +92,7 @@ Selecting the sensor will direct you to the sensor's chart page where you can vi
 
 #### Notes on readings and viewing charts
 
-While current readings will be immediately stored and available for viewing, hourly charts will not be available for the first 30 minutes. Daily charts will not be available for 2 days:(.
+While current readings will be immediately stored and available for viewing, charts will be initially delayed. Hourly charts will appear after 30 minutes. Daily summary charts will appear in 2 days. This delay will occur only once, the first time a sensor is connected to the Groopi. 
 
 ## Change default password for the OpenGro/Op web console (*optional*)
 
@@ -110,28 +110,4 @@ There are currently no facilities to reset this password if forgotten. So please
 ## That's it!
 
 Now whenever you want to view your sensor data, all you have to do is join the Groopi's WIFI network, browse to the IP address above, and log into the OpenGro/Op console. Just remember that your browsing device will not have internet access while connected to the Groopi's WIFI network.  
-
-## What's next?
-
-The Groopi has a few more features that are worth exploring. All of which are covered in the [Opengro/Op User Manual](/opengroop_user_manual/).
-
-#### Local network connections
-
-The Groopi can connect to existing local networks by either WIFI, ethernet, or both. By connecting the Groopi to an existing network, you do not have to switch networks to access the OpenGro/Op web console. It will hava an address on that network.
-
-#### Remote network connection
-
-If you have the Groopi connected to a local network that has internet access, then the Groopi can also be accessed remotely, off-site.
-
-#### Cloud data storage
-  
-Sensor data can be pushed to the cloud for storing and viewing.
-
-#### User magament
-
-Users can be added to the system to access sensor data.
-
-
-For a detailed a reference on the OpenGro/Op web console, visit the  [Opengro/Op Reference Manual](/opengroop_reference_manual/).
-
 
