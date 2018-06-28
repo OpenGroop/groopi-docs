@@ -7,8 +7,8 @@ This quickstart guide will guide you through the process of getting your Groopi 
 
 1. A WIFI cabable device with a web browser. This can be on a phone, tablet, laptop, etc.., anything with a web browser.
 2. Javascript and cookies must be enabled on the browser. If you haven't explicitly disabled these, then they are most likely already enabled.
-3. Downloaded PDF version of this guide.  
-(This is only necessary if you plan on follwing this guide on the same device that you plan to connect to the Groopi.)
+3. A printed or downloaded [PDF](https://git.opengroop.org/groopi-quickstart.pdf) version of this guide.  
+(This is only necessary if you plan on following this guide on the same device that you plan to connect to the Groopi.)
 
 ## Step Summary
 
@@ -25,7 +25,7 @@ That's it, so let's get going.
 
 ## Power up the Groopi
 
-1. Make sure the SD card is inserted correctly. It should be inserted with the pins facing in and towards the RPI.
+1. Make sure the SD card is solidly inserted in the Groopi.
 2. Connect the sensor to any USB port on the Groopi.
 3. Connect the micro USB end of the AC/DC power supply to the Groopi.
 4. Plug the plug end of the AC/DC power supply into a 120v power source. Your Groopi should now power up.
@@ -42,6 +42,10 @@ You will be connecting to the Groopi's WIFI network the same way you would conne
 
 You should now be connected to the Groopi's WIFI network. Now you're ready to access the OpenGro/Op web console.
 
+#### Note on connecting to the Groopi's WIFI network
+
+While connected to the Groopi's WIFI connection, your browsing device will not have Internet access through it's WIFI connection.
+
 ## Browse to the OpenGro/Op web console
 
 With your browsing device connected to the Groopi's WIFI network, open up a browser and enter into it's address bar:
@@ -54,21 +58,21 @@ You will receive an ominous warning from your browser claiming that the connecti
 
 When accessing the OpenGro/Op console for the first time, you will receive a warning claiming that the site is *'untrusted'* or *'not private'*. As ominous as this may sound, we can ignore this warning and move on. But to do that, we must let the browser know that we trust the connection. Different browsers have different ways to do this.
 
-### Chrome
+#### Chrome
 
 On the warning page:
 
 1. select *'ADVANCED'*
 2. then, select *'Proceed to 10.10.10.1 (unsafe)'*
 
-### Firefox
+#### Firefox
 
 On the warning page,
 
 1. select *'Advanced'*
-2. then, select *'Visit site anayway'*
+2. then, select *'Visit site anyway'*
 
-### Safari
+#### Safari
 
 On the warning page,
 
@@ -87,7 +91,7 @@ With WIFI connections made and browser warnings bypassed, we are now ready to lo
 + USERNAME: ***admin***
 + PASSWORD: ***opengroop***
 
-After a successfull login, you'll be directed to the *Sensors* section. This is where your sensors will be listed, showing their current readings.  
+After a successful login, you'll be directed to the *Sensors* section. This is where your sensors will be listed, showing their current readings.  
 Selecting the sensor will direct you to the sensor's chart page where you can view charts based on the sensor's data, or change sensor settings. 
 
 #### Notes on readings and viewing charts
@@ -109,5 +113,5 @@ There are currently no facilities to reset this password if forgotten. So please
 
 ## That's it!
 
-Now whenever you want to view your sensor data, all you have to do is join the Groopi's WIFI network, browse to the IP address above, and log into the OpenGro/Op console. Just remember that your browsing device will not have internet access while connected to the Groopi's WIFI network.  
+Now whenever you want to view your sensor data, all you have to do is join the Groopi's WIFI network, browse to the IP address above, and log into the OpenGro/Op console. Just remember that your browsing device will not have Internet access through it's WIFI while connected to the Groopi's WIFI network.  
 
