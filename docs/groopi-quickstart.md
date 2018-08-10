@@ -42,9 +42,7 @@ You will be connecting to the Groopi's WIFI network the same way you would conne
 
 You should now be connected to the Groopi's WIFI network. Now you're ready to access the OpenGro/Op web console.
 
-#### Note on connecting to the Groopi's WIFI network
-
-While connected to the Groopi's WIFI connection, your browsing device will not have Internet access through it's WIFI connection.
+> ***Note:*** *While connected to the Groopi's WIFI connection, your browsing device will not have Internet access through it's WIFI connection.*
 
 ## Browse to the OpenGro/Op web console
 
@@ -79,10 +77,8 @@ On the warning page,
 1. select *'Show Details'*
 2. then, select *'visit this website'*
 
-#### Note on browser warnings
-This warning will appear the first time we access OpenGro/Op for each browser. Bypassing this warning on Chrome will not automatically bypass it on Firefox or Safari. Each browser type must remember it's own bypass setting. This also applies across browsing devices.   
-
-After bypassing the warning, we will be presented with the *Login* page.
+> ***Note:*** *This warning will appear the first time we access OpenGro/Op for each browser. Bypassing this warning on Chrome will not automatically bypass it on Firefox or Safari. Each browser type must remember it's own bypass setting. This also applies across browsing devices.*    
+> *After bypassing the warning, you will be presented with the Login page.*
 
 ## Log in to access the OpenGro/Op web console
 
@@ -94,13 +90,11 @@ With WIFI connections made and browser warnings bypassed, we are now ready to lo
 After a successful login, you'll be directed to the *Sensors* section. This is where your sensors will be listed, showing their current readings.  
 Selecting the sensor will direct you to the sensor's chart page where you can view charts based on the sensor's data, or change sensor settings. 
 
-#### Notes on readings and viewing charts
-
-While current readings will be immediately stored and available for viewing, charts will be initially delayed. Hourly charts will appear after 30 minutes. Daily summary charts will appear in 2 days. This delay will occur only once, the first time a sensor is connected to the Groopi. 
+> ***Note:*** *While current readings will be immediately stored and available for viewing, charts will be initially delayed. Hourly charts will appear after 30 minutes. Daily summary charts will appear in 2 days. This delay will occur only once, the first time a sensor is connected to the Groopi.* 
 
 ## Change default password for the OpenGro/Op web console (*optional*)
 
-Although not required, it is suggested that you change the default *'admin'* user password.  
+Although not required, it is strongly advised that you change the default *'admin'* user password.  
 
 1. On the main navigation, select *SETTINGS*
 2. Select *USERS*
