@@ -1,5 +1,4 @@
-# Groopi Quickstart Guide
-
+# Groopi Quickstart Guide v0.2.5
 This quickstart guide will guide you through the process of getting your Groopi up and running quickly. But before we start, there are few requirements.
 
 
@@ -88,9 +87,9 @@ With WIFI connections made and browser warnings bypassed, we are now ready to lo
 + PASSWORD: ***opengroop***
 
 After a successful login, you'll be directed to the *Sensors* section. This is where your sensors will be listed, showing their current readings.  
-Selecting the sensor will direct you to the sensor's chart page where you can view charts based on the sensor's data, or change sensor settings. 
+Selecting the sensor will direct you to the sensor's chart page where you can view charts based on the sensor's data, or change sensor settings.
 
-> ***Note:*** *While current readings will be immediately stored and available for viewing, charts will be initially delayed. Hourly charts will appear after 30 minutes. Daily summary charts will appear in 2 days. This delay will occur only once, the first time a sensor is connected to the Groopi.* 
+> ***Note:*** *While current readings will be immediately stored and available for viewing, charts will be initially delayed. Hourly charts will appear after 30 minutes. Daily summary charts will appear in 2 days. This delay will occur only once, the first time a sensor is connected to the Groopi.*
 
 ## Change default password for the OpenGro/Op web console (*optional*)
 
@@ -108,4 +107,3 @@ There are currently no facilities to reset this password if forgotten. So please
 ## That's it!
 
 Now whenever you want to view your sensor data, all you have to do is join the Groopi's WIFI network, browse to the IP address above, and log into the OpenGro/Op console. Just remember that your browsing device will not have Internet access through it's WIFI while connected to the Groopi's WIFI network.  
-
