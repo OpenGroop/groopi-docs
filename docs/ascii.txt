@@ -1,0 +1,60 @@
+        REMOTE NETWORK               LOCAL NETWORK                     ACCESS POINT
+            IP ADDRESS *              IP ADDRESSES *                 * IP ADDRESS
+                       |                           |                 |
+               +---+   |   +--------+              |   +---------+   |
+               | I |   |   |        |              |   |         |   |
++--------+     | N |   |   |        |               \  | RPi     |   |
+| Phone  |     | T |    \  |        | <= Ethernet => * | Gateway |  /           +---------+
+| Tablet | <=> | E | <=> * | Modem/ |                | | Server  | * <= WIFI => | Phone   |
+| etc..  |     | R |       | Router | <= WIFI =====> * |         |              | Tablet  |
++--------+     | N |       |        |                  +---------+              | Desktop |
+               | E |       |        | <= WIFI/Ethernet =======================> | etc.... |
+               | T |       |        |                                           +---------+
+               +---+       +--------+
+
+          |___|     |_____|          |________________|           |____________|
+            |          |                     |                           |
+Remote -----+          |                     |                           |
+WAN    ----------------+                     |                           |
+Local Network -------------------------------+                           |
+Access Point  -----------------------------------------------------------+
+
+
+
+
+
+
++---+     +--------+                  +---------+
+| I |     |        |                  |         |
+| N |     |        | <= Ethernet => * | RPi     |
+| T |     | modem/ |                  | Gateway |   +---------+
+| E | <=> | router | <= WIFI =====> * | Server  |   |         |
+| R |     | (LAN)  |                  |         |   | Phone   |
+| N |     |        |                  +---------+   | Tablet  |
+| E |     |        | <= WIFI/Ethernet ============> | Desktop |
+| T |     |        |                                |         |
++---+     +--------+                                +---------+
+
+             * ACCESS POINT
+             |
++---------+  |           +---------+
+|         |  |           |         |
+| RPi     |  |           | Phone   |
+| Server  | * <= WIFI => | Tablet  |
+| Gateway |              | Desktop |
+|         |              |         |
++---------+              +---------+
+
+
+
++-------+  +-----+
+|Browser|  |Cloud|
++-------+  +-----+
+
++-----------------+
+|    INTERNET     |
++-----------------+
+
++-----------------+
+|   Modem/Router  |
++-----------------+

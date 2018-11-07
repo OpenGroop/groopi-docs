@@ -1,5 +1,7 @@
-site_name: OpenGro/Op Support Pages
+site_name: Terrestat System
 pages:
-  - Preface: index.md
-  - Groopi Quickstart Guide: groopi-quickstart.md
+  - Home: index.md
+  - Quickstart Guide: opengroop-quickstart.md
+  - User Guides: opengroop-guides.md
+  - Network Topology: opengroop-network.md
 theme: readthedocs
